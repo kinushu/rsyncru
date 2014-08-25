@@ -1,4 +1,6 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in rsyncru.gemspec
-gemspec
+gem 'rsync', :git => 'git@github.com:kinushu/ruby-rsync.git',
+             :branch => "devlop"
+gem 'json'
+
